@@ -1,0 +1,28 @@
+.loader-container1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.slick-item {
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo-image {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+.story-user-name {
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+.slick-prev:before {
+  color: gray;
+}
+.slick-next:before {
+  color: black;
+}

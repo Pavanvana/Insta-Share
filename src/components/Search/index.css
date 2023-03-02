@@ -1,0 +1,138 @@
+.search-container-sm {
+  background: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding-left: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .search-container-sm {
+    display: none;
+  }
+}
+.search-caption-input {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 15px;
+  width: 100%;
+}
+.search-icon {
+  width: 30px;
+  height: 30px;
+  background: #dbdbdb;
+  border-radius: 0px 2px 2px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+.search-post-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.posts-container-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .posts-container-sm {
+    width: 70%;
+  }
+}
+.posts-items-container-sm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.posts {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-container {
+  text-align: center;
+}
+.alert-img {
+  width: 40px;
+  height: 40px;
+}
+.alert-msg {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.tryagain-btn {
+  height: 32px;
+  width: 102px;
+  left: 0px;
+  top: 0px;
+  border-radius: 8px;
+  padding: 8px 24px 8px 24px;
+  background: #4094ef;
+  border-radius: 8px;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 12px;
+  border: none;
+}
+.not-found-img {
+  width: 80%;
+}
+@media (max-width: 768px) {
+  .not-found-img {
+    width: 50%;
+  }
+}
+.not-found-container {
+  text-align: center;
+}
+.not-found-heading {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.not-found-description {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #989898;
+  margin-top: 0px;
+  padding-top: 0px;
+}
